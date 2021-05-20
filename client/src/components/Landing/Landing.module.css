@@ -1,0 +1,53 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1947&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.land {
+  position: absolute;
+  width: 100%;
+
+  top: 45%;
+}
+.la {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: 50%;
+}
+h4 {
+  padding: 1rem;
+  text-decoration-line: underline;
+}
+.la h3 {
+  padding: 1rem;
+  font-size: 500%;
+  font-family: "Caveat", cursive;
+  background: #f5c27e;
+  background: -webkit-linear-gradient(to right, #f5c27e 0%, #6de0e0 100%);
+  background: -moz-linear-gradient(to right, #f5c27e 0%, #6de0e0 100%);
+  background: linear-gradient(to right, #f5c27e 0%, #6de0e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.join {
+  background-color: rgba(109, 224, 224, 0.5);
+
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+.join a {
+  font-family: "Caveat", cursive;
+  font-size: 500%;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+
+.join:hover {
+  background-color: rgba(109, 224, 224, 0.9);
+}

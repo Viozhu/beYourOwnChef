@@ -1,0 +1,78 @@
+.page {
+  margin: 0px;
+  padding: 0px;
+  max-height: max-content;
+}
+
+.todo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.detail {
+  background: linear-gradient(
+    90deg,
+    rgba(245, 193, 126, 0.9) 35%,
+    rgba(109, 224, 224, 0.9) 100%
+  );
+  width: 70rem;
+  height: auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.info {
+  padding-left: 1rem;
+  width: 70%;
+}
+.info b {
+  font-size: 23px;
+}
+.info p {
+  font-size: 15px;
+}
+.info h2 {
+  font-family: "Merienda", cursive;
+  font-size: 30px;
+}
+
+.score b {
+  font-size: 23px;
+}
+.score p {
+  font-size: 20px;
+}
+.sum {
+  padding: 15px;
+}
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 14px;
+}
+
+.img {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.panic {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+}
+
+.steps {
+  width: 30%;
+}

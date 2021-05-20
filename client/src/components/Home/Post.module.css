@@ -1,0 +1,12 @@
+.loading h2 {
+  color: rgba(245, 193, 126);
+  font-family: "Caveat", cursive;
+  font-size: 100px;
+}
+
+.loading h1 {
+  text-align: center;
+  color: lightblue;
+  font-family: "Caveat", cursive;
+  font-size: 100px;
+}

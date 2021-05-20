@@ -1,0 +1,49 @@
+.mo {
+  display: inline-block;
+  align-items: center;
+  margin: 15px;
+}
+.dentro {
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.dentro h5 {
+  font-family: "Merienda", cursive;
+}
+
+.dentro b {
+  font-family: "Merienda", cursive;
+}
+
+.cards {
+  display: flex;
+  padding: 0.2rem;
+  border-radius: 5px;
+  box-shadow: #cccc 2px 5px 15px;
+  background: linear-gradient(
+    0deg,
+    rgba(208, 227, 227, 1) 0%,
+    rgba(109, 224, 224, 0.362) 100%
+  );
+
+  width: 28rem;
+  height: 11rem;
+}
+b {
+  font-size: 15px;
+}
+
+.image {
+  margin-top: 5px;
+  padding: 4px;
+  height: 10rem;
+  width: 14rem;
+  border-radius: 10px;
+}
+
+.info {
+  text-align: end;
+  align-items: flex-end;
+  font-size: 11px;
+}

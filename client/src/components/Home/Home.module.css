@@ -1,0 +1,100 @@
+.fondo {
+  background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1947&q=80");
+  background-color: #cccccc;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size: 12px;
+}
+/* Side bar */
+
+.side {
+  margin: 0px;
+  margin-left: 2rem;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  justify-content: center;
+  border: 2px solid rgba(109, 224, 224);
+  background: rgba(245, 193, 126, 0.7);
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  height: fit-content;
+  width: 15rem;
+}
+
+.side label {
+  color: aliceblue;
+}
+.side h3 {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+}
+.App {
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+/* Pages */
+.pages {
+  align-self: flex-end;
+  width: 100%;
+}
+
+/* Search part */
+.search {
+  display: inline-block;
+}
+.search input {
+  margin-right: 5px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  height: 1.5rem;
+}
+.search button {
+  margin: 2px;
+  color: white;
+  background: lightblue;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 1.8rem;
+}
+.search button:hover {
+  background: rgba(76, 199, 193, 0.877);
+}
+
+/* Order */
+
+.order button {
+  color: white;
+  background: lightblue;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  height: 2rem;
+  justify-content: space-around;
+}
+.order button:hover {
+  background: rgba(76, 199, 193, 0.877);
+}
+
+/* Select */
+.end {
+  margin-bottom: 2rem;
+}
+.select {
+  height: 2rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  background: lightblue;
+}

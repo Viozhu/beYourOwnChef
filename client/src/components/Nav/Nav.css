@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 3px;
+}
+
+.list-item {
+  list-style-type: none;
+  padding: 0.5rem;
+  align-items: center;
+  margin: 3px;
+
+  margin-bottom: 3px;
+  justify-content: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.list-item:hover {
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+
+  background: linear-gradient(
+    90deg,
+    rgba(245, 193, 126, 0.39) 35%,
+    rgba(109, 224, 224, 0.294) 100%
+  );
+}
