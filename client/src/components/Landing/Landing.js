@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import style from "./Landing.module.css";
 
 export default function Landing() {
@@ -10,9 +10,9 @@ export default function Landing() {
           <h3> Be your own Chef </h3>
 
           <p className={style.join}>
-            <a data-testid="fakebutton" className="dd" href="/home">
+            <NavLink data-testid="fakebutton" className="dd" to="/home">
               Join Now!
-            </a>
+            </NavLink>
           </p>
         </div>
       </div>
